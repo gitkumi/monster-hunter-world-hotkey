@@ -15,3 +15,7 @@ return
 #IfWinActive ahk_exe MonsterHunterWorld.exe
 h::f4
 return
+
+;Disable Windows keys
+LWin::return
+RWin::return
