@@ -1,33 +1,17 @@
-isActive := true
-
 f9::
-  isActive := !isActive
+  Suspend
 return
 
-;Maps b, n, g, h, to f1, f2, f3, f4 respectively
 
-if (isActive)
 #IfWinActive ahk_exe MonsterHunterWorld.exe
-b::f1
+{
+  ;Maps b, n, g, h, to f1, f2, f3, f4 respectively
+  b::f1
+  n::f2
+  g::f3
+  h::f4
 
-if (isActive)
-#IfWinActive ahk_exe MonsterHunterWorld.exe
-n::f2
-
-if (isActive)
-#IfWinActive ahk_exe MonsterHunterWorld.exe
-g::f3
-
-if (isActive)
-#IfWinActive ahk_exe MonsterHunterWorld.exe
-h::f4
-
-;Disable Windows keys
-
-if (isActive)
-#IfWinActive ahk_exe MonsterHunterWorld.exe
-LWin::return
-
-if (isActive)
-#IfWinActive ahk_exe MonsterHunterWorld.exe
-RWin::return
+  ;Disable Windows keys
+  LWin::return
+  RWin::return
+}
