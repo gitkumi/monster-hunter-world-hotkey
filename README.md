@@ -1,12 +1,16 @@
 A script to improve MHW controls.
 
-- F9 key to toggle on/off
+- F9 key to toggle the script on/off
 
-- Map F1~F4 keys to b, n, g, h keys respectively
-    - Makes it easier to use item while you run away from angry elder dragons
+- Map F1, F2, F3, F4 keys to B, N, G, H keys respectively.
+    - So you can use items without having to remove your fingers from the shift and WSAD keys.
+    - Makes it easier to use items while you run away from angry elder dragons.
 
 - Disable Windows keys
 
 How to use:
-- Have Autohotkey installed
+- Install (https://autohotkey.com/ "Autohotkey")
 - Run the script
+
+License:
+(https://icons8.com/good-boy-license/ "Good Boy License")
