@@ -1,4 +1,4 @@
-## A script to improve MHW controls.
+## A script to improve MHW controls. 1.0.0
 
 - F9 key to toggle the script on/off
 
@@ -9,7 +9,7 @@
 - Disable Windows keys
 
 ### How to use:
-- Install [Autohotkey](https://www.google.com)
+- Install [Autohotkey](https://autohotkey.com/)
 - Run the script
 
 ### License:
